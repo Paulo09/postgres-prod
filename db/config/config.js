@@ -1,3 +1,5 @@
+import 'dotenv/config'
+
 export const DB_CONFIG = {
     host: process.env.HOST,
     port: process.env.PORT,
