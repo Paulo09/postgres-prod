@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 })
 
 routeProduto(app)
-
+//Host
 const HOST = process.env.HOST || 'localhost'
 const PORT = '5000'
 
